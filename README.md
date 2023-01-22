@@ -14,3 +14,7 @@ pip install Flask
 pip install qrcode[pil]
 `
 
+###   Install pybase64
+`
+pip install pybase64
+`
