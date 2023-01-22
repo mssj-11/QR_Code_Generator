@@ -1,6 +1,8 @@
 #   QR Code Generator
 
 
+
+
 ##  Requeriments
 
 
@@ -18,3 +20,11 @@ pip install qrcode[pil]
 `
 pip install pybase64
 `
+
+
+
+##  View
+
+<p aling="center">
+    <img src="preview.png" alt="">
+</p>
