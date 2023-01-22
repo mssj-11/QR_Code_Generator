@@ -8,13 +8,23 @@
     <title>QR Generator</title>
 </head>
 <body>
+
     <div class="title">
         <h1>QR Code Generator</h1>
         <h2>Insert a link bellow to generate a QR Code</h2>
     </div>
+
+
     <form action="/" method="post">
-        <input type="text" name="link" id="">
+        <input type="text" name="link">
         <button type="submit">Generate QR</button>
     </form>
+
+    {% if data %}
+    <div class="generated">
+        <img src="{{data}}">
+        <p><b>Here is the QR we generated for you 📱</b></p>
+    </div>
+    {% endif %}
 </body>
 </html>
