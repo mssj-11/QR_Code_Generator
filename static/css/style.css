@@ -14,7 +14,7 @@ body{    margin: 0rem 10rem;     }
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 5rem;
+    padding: 1.5rem;
     justify-content: center;
     align-items: center;
     color: rgb(37, 37, 37);
@@ -53,3 +53,18 @@ form button{
 }
 
 form button:hover{      opacity: .9;    }
+
+
+
+/*   Img Generated   */
+.generated{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.generated img{
+    width: 400px;
+    height: 400px;
+}
